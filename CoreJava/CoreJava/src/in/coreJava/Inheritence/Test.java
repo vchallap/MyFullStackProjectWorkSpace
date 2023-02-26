@@ -1,4 +1,4 @@
-package in.core.java.Inheritence;
+package in.coreJava.Inheritence;
 
 public class Test {
 
