@@ -20,6 +20,14 @@ insert into demo1 values (&demo_id,&demo_name,&demo_gender,&demo_location);
 --commit the data to save the data perminently
 commit;
 
---how to update to all rows in the table
+--how to update  all rows in the table
 
-update table demo1
+update demo1 set demo_location='USA';
+
+-- HOW TO UPDATE SPECIFIC ROW IN TABLE
+
+update demo1 set demo_location='UK' where demo_id=101;
+
+--delete the unwanted records from table
+
+delete demo1 where demo_id=106;
