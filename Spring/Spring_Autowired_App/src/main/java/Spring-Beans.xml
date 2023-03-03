@@ -5,7 +5,8 @@
 
 
 <bean id = "dieselEng" class="in.venkat.spring.DieselEngine"/>
-<bean id="car" class="in.venkat.spring.Car" autowire="byName"/>
+<bean id="car" class="in.venkat.spring.Car" autowire="byName"/> 
+
 
 
 	
