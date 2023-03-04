@@ -31,3 +31,32 @@ update demo1 set demo_location='UK' where demo_id=101;
 --delete the unwanted records from table
 
 delete demo1 where demo_id=106;
+
+
+select * from venkat_employees;
+
+insert into venkat_employees values(&empID,&empName,&gender,&dob,&tob);
+
+commit;
+
+insert into venkat_employees values(1005,'venky','m','07-jan-1997',sysdate);
+
+exit;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+

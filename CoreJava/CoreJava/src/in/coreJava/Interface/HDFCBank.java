@@ -1,6 +1,6 @@
 package in.coreJava.Interface;
 
-public class HDFCBank implements RBI,WorldBank {
+public class HDFCBank implements RBI, WorldBank {
 
 	@Override
 	public void checksEligibulity() {
@@ -23,6 +23,7 @@ public class HDFCBank implements RBI,WorldBank {
 		hb.moneyTransfer();
 		hb.checkBalance();
 		hb.forigenExchange();
+
 	}
 
 	@Override
